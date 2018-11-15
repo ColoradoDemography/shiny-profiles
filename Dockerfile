@@ -12,5 +12,5 @@ RUN apt-get update && apt-get install -y libssl-dev git && apt-get install -y li
     cd /srv/shiny-server && \
     git clone https://github.com/ColoradoDemography/demographic_dashboard && \
     git clone https://github.com/ColoradoDemography/netmigration_dashboard && \
-    git clone https://github.com/ColoradoDemography/ProfileDashboard2 && \
+    git clone https://github.com/ColoradoDemography/ProfileDashboard && \
     git clone https://github.com/ColoradoDemography/MapCreate

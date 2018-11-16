@@ -8,6 +8,4 @@ RUN apt-get update && apt-get install -y libssl-dev git && apt-get install -y li
     R -e "devtools::install_github('ColoradoDemography/ProfileDashboard')" && \
     R -e "devtools::install_github('ColoradoDemography/codemogAPI')" && \
     R -e "devtools::install_github('ColoradoDemography/codemogProfile')" && \
-    R -e "devtools::install_github('ColoradoDemography/codemogLib')" && \
-    cd /srv/shiny-server && \
-    git clone https://github.com/ColoradoDemography/ProfileDashboard2
+    R -e "devtools::install_github('ColoradoDemography/codemogLib')"
